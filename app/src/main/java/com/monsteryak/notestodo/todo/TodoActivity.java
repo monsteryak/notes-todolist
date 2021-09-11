@@ -62,6 +62,8 @@ public class TodoActivity extends AppCompatActivity implements OnDialogCloseList
 
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(TodoActivity.this));
+        
+        infoAlert();
 
         mFab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -78,6 +80,22 @@ public class TodoActivity extends AppCompatActivity implements OnDialogCloseList
         showData();
         recyclerView.setAdapter(adapter);
     }
+    
+    private void infoAlert() {
+
+        AlertDialog.Builder warning = new AlertDialog.Builder(this)
+                .setTitle("Tips !!")
+                .setMessage("Swipe Left to Edit & Swipe Right to Delete the Task")
+                .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        //Just Chill
+                    }
+                });
+        warning.show();
+
+    }
+    
     private void showData(){
         query = fStore.collection("Users").document(fUser.getUid()).collection("task").orderBy("time" , Query.Direction.DESCENDING);
 
