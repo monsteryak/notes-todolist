@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "255639997584",
+    "project_id": "notesandtodolist",
+    "storage_bucket": "notesandtodolist.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255639997584:android:e5e6a2238b2e24fac6dc15",
+        "android_client_info": {
+          "package_name": "com.monsteryak.notestodo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255639997584-3laam4hmn4dr8umc1ke3dml4i8rkao87.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD52zoheNgBwWGBOuyPmGRSkP-wvBCJWoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255639997584-3laam4hmn4dr8umc1ke3dml4i8rkao87.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
