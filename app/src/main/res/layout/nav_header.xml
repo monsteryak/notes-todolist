@@ -8,7 +8,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:background="@drawable/nav_backgroundimage_2">
+        android:background="@drawable/background">
 
         <TextView
             android:id="@+id/textView2"
@@ -21,7 +21,7 @@
             android:lineSpacingExtra="8sp"
             android:text="Notes &amp; ToDo List"
             android:textAlignment="viewStart"
-            android:textColor="#FFFFFF"
+            android:textColor="#ff3d00"
             android:textSize="36sp"
             android:textStyle="bold"
             android:typeface="normal"
@@ -40,7 +40,7 @@
             android:fontFamily="@font/aladin"
             android:text="Take Your Notes &amp; Task List With You "
             android:textAlignment="viewStart"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/greenLight"
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -55,7 +55,7 @@
             android:layout_marginTop="24dp"
             android:layout_marginEnd="16dp"
             android:text="ManishKumar Vishwakarma"
-            android:textColor="#512DA8"
+            android:textColor="@color/yellow"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -68,7 +68,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:text="manish.kumar.vishwakarma9323@gmail.com"
-            android:textColor="#1A237E"
+            android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/userDisplayName" />
